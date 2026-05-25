@@ -1,0 +1,19 @@
+[project]
+name = "mongodb-homework"
+version = "0.1.0"
+description = "MongoDB homework: university student grades database"
+authors = [
+    {name = "Bogdan"}
+]
+readme = "README.md"
+requires-python = "^3.12"
+dependencies = [
+    "pymongo (>=4.17.0,<5.0.0)",
+    "faker (>=40.19.1,<41.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
